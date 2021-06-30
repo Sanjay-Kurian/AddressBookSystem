@@ -1,7 +1,12 @@
 package com.bridgelabz.addressbook;
 
 public class AddressBook {
-	public static void main(String[] args) {
-		System.out.println("Welcome to Address book program");
-	}
+	String firstName;
+	String lastName;
+	String address;
+	String city;
+	String state;
+	int zip;
+	long phone;
+	String email;
 }
