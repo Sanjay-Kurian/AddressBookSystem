@@ -8,11 +8,16 @@ public class AddressOperations {
 	
 	void add(AddressBook contact) {
 		addressList.add(contact);
+		System.out.println("Entered");
 	}
 	
 	void display() {
 		for(AddressBook element: addressList) {
 			System.out.println(element);
 		}
+	}
+	
+	void delete(int num) {
+		addressList.remove(num);
 	}
 }
